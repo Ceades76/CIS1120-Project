@@ -1,0 +1,34 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+  text-align: center;
+}
+
+#headBar {
+  border: solid 1px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr 1fr 1fr;
+}
+
+#home {
+  margin-top: 10px;
+  border: solid 1px;
+  display: grid;
+}
+
+.LogoBackground {
+  width: 100%;
+  margin: 0 auto;
+  background-color: black;
+}
+.headLinks {
+  color: black;
+}
+
+.chosen {
+  color: blue;
+  font-weight: bold;
+}
